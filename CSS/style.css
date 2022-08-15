@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  width: 97.5%;
+  overflow: hidden;
+  height: 4rem;
+  padding: 0 1rem;
+  gap: 0.5rem;
+}
+
+.nav-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-toggle img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.udemy-logo img {
+  width: 6rem;
+}
+
+.nav-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+}
+
+.nav-search {
+  background-color: #f7f9fa;
+  border: 1px solid #1c1d1f;
+  border-radius: 6.2rem;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.nav-search img {
+  width: 1rem;
+  height: 1rem;
+  padding: 0.3rem;
+}
+
+.search-btn {
+  width: 4rem;
+  height: 1.6rem;
+}
+
+.nav-search input {
+  font-size: 1.1rem;
+  width: 100%;
+  height: auto;
+  border: none;
+  background-color: #f7f9fa;
+  outline: none;
+}
+
+.nav-cart {
+  width: 3.1rem;
+  height: auto;
+}
+
+.nav-cart img {
+  width: 70%;
+  height: auto;
+}
+
+.nav-btn {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
+  border: 3px solid #000;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.2rem;
+}
+
+.login:hover {
+  background-color: #f7f9fa;
+}
+
+.signup {
+  background-color: #000;
+  color: #fff;
+}
+
+.nav-lang {
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 3px solid #000;
+  background-color: #fff;
+  margin-top: 3px;
+}
+
+.nav-lang img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  background-color: #f7f9fa;
+  width: 80%;
+  margin: 0 auto;
+  height: 25rem;
+  justify-content: space-between;
+}
+
+.alarm {
+  width: 20rem;
+  height: auto;
+  align-self: flex-start;
+  margin-right: 3rem;
+}
+
+.header-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  margin: 2rem 0 0 2rem;
+  font-size: 1rem;
+  width: 22rem;
+  height: auto;
+  padding: 1rem;
+  align-self: flex-start;
+}
+
+.header-text h1 {
+  margin-bottom: 1.3rem;
+}
+
+.main-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 80%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.main-title h1 {
+  margin-bottom: 1rem;
+}
+
+.courses {
+  border: 1px solid #808080;
+  width: 80%;
+  margin: 2rem auto auto auto;
+  padding: 2rem;
+}
+
+.courses-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.courses-text h3 {
+  margin-bottom: 1.5rem;
+}
+
+.div-courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.course-card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.8rem;
+}
+
+.course-card img {
+  width: 100%;
+}
+
+.course-card h4,
+.course-card p {
+  margin-bottom: 0.5rem;
+}
+
+.course-card i {
+  color: #e59819;
+}
+
+.discount {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.discount h5 {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.discount h5:last-child {
+  text-decoration: line-through;
+  position: relative;
+  color: rgb(86, 89, 95);
+}
+
+@media (width <= 991px) {
+  .nav-hidden1 {
+    display: none;
+  }
+}
+
+@media (width <= 767px) {
+  .nav-hidden2 {
+    display: none;
+  }
+}
+
+@media (width <= 575px) {
+  .hidden-all {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .udemy-logo img {
+    margin-right: 0.8rem;
+    margin: 5rem;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 40rem;
+    justify-content: center;
+  }
+
+  .alarm {
+    margin: auto;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+
+  .header-text {
+    margin: auto;
+  }
+
+  .nav-search {
+    border: none;
+    background-color: #fff;
+    flex-grow: 0;
+  }
+
+  .search {
+    width: 0%;
+  }
+
+  .nav-search img {
+    width: 1.7rem;
+    height: auto;
+  }
+}
