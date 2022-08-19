@@ -1,46 +1,57 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
+  <!-- Font Awesome  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <meta charset="UTF-8" />
+
+  <!-- To Enable media query on chrome -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Bootstrap CSS and JS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+    defer></script>
+
+  <!-- External Css and JS files -->
   <script src="../JavaScript/script.js" defer></script>
   <link href="../CSS/style.css" rel="stylesheet" />
 
   <title>Udemy</title>
-  
+
 </head>
 
 <body>
 
   <!-- Navigation Bar -->
-  <nav class="nav-container">
+  <nav class="nav-container ">
 
     <!-- Navigation toggle -->
     <div class="nav-toggle">
       <img src="../Images/Toggle.png" alt="Toggle icon" class="nav-img" />
     </div>
 
-    <div class="udemy-logo">
+    <!-- Udemy logo -->
+    <div class="udemy-logo ">
       <img src="../Images/Udemy.png" alt="Udemy logo" class="nav-img" />
     </div>
 
     <div class="nav-text hidden-all"><a>Categories</a></div>
 
-    <!-- Search Box -->
+    <!-- Start Search Box -->
     <div class="nav-search">
       <img src="../Images/Search Icon.png" alt="search icon" />
       <input type="text" placeholder="Search for anything" class="search hidden-all" />
     </div>
 
     <input type="submit" value="Search" class="search-btn hidden-all">
+    <!-- End Search Box -->
 
     <div class="nav-text nav-hidden1 hidden-all"><a>Udemy Business</a></div>
     <div class="nav-text nav-hidden2 hidden-all"><a>Teach on Udemy</a></div>
@@ -74,8 +85,47 @@
     </p>
   </div>
 
-  <!-- Courses Grid -->
+  <!-- Tabs -->
+  <ul class="nav nav-tabs tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="python-tab" data-bs-toggle="tab" data-bs-target="#Python" type="button"
+        role="tab" aria-controls="home" aria-selected="true">Python</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="excel-tab" data-bs-toggle="tab" data-bs-target="#Excel" type="button" role="tab"
+        aria-controls="profile" aria-selected="false">Excel</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="web-tab" data-bs-toggle="tab" data-bs-target="#Web" type="button" role="tab"
+        aria-controls="contact" aria-selected="false">Web Development</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="js-tab" data-bs-toggle="tab" data-bs-target="#JS" type="button" role="tab"
+        aria-controls="contact" aria-selected="false">JavaScript</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="ds-tab" data-bs-toggle="tab" data-bs-target="#DS" type="button" role="tab"
+        aria-controls="contact" aria-selected="false">Data Science</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="aws-tab" data-bs-toggle="tab" data-bs-target="#AWS" type="button" role="tab"
+        aria-controls="contact" aria-selected="false">AWS Certification</button>
+    </li>
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="drawing-tab" data-bs-toggle="tab" data-bs-target="#Drawing" type="button" role="tab"
+        aria-controls="contact" aria-selected="false">Drawing</button>
+    </li>
+  </ul>
+
+  <!-- Courses Container -->
   <section class="courses">
+
     <div class="courses-text">
       <h3>Expand your career opportunities with Python</h3>
 
@@ -88,10 +138,79 @@
       </p>
     </div>
 
-    <!-- Courses Cards -->
-    <div class="div-courses">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="Python" role="tabpanel" aria-labelledby="home-tab"></div>
+          <div class="tab-pane fade" id="Excel" role="tabpanel" aria-labelledby="profile-tab"></div>
+          <div class="tab-pane fade" id="Web" role="tabpanel" aria-labelledby="contact-tab"></div>
+          <div class="tab-pane fade" id="JS" role="tabpanel" aria-labelledby="contact-tab"></div>
+          <div class="tab-pane fade" id="DS" role="tabpanel" aria-labelledby="contact-tab"></div>
+          <div class="tab-pane fade" id="AWS" role="tabpanel" aria-labelledby="contact-tab"></div>
+          <div class="tab-pane fade" id="Drawing" role="tabpanel" aria-labelledby="contact-tab"></div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev slider-btn" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next slider-btn" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </section>
+
+  <!-- Categories -->
+  <h2 class="mt-4 ms-5">Top categories</h2>
+
+  <div class="categories container mt-5">
+    <div class="row align-item-center">
+
+      <div class="col col-md-4 col-lg-3 col-sm-12 mb-5">
+        <img src="../Images/Categories1.jpg" alt="Design" width="90%">
+        <h5>Design</h5>
+      </div>
+
+      <div class="col col-md-4 col-lg-3 col-sm-12 mb-5">
+        <img src="../Images/Categories2.jpg" alt="Development" width="90%">
+        <h5>Development</h5>
+      </div>
+
+      <div class="col col-md-4 col-lg-3 col-sm-12 mb-5">
+        <img src="../Images/Categories3.jpg" alt="Marketing" width="90%">
+        <h5>Marketing</h5>
+      </div>
+
+      <div class="col col-md-4 col-lg-3 col-sm-12 mb-5">
+        <img src="../Images/Categories4.jpg" alt="IT and Software" width="90%">
+        <h5>IT and Software</h5>
+      </div>
+
+      <div class="col col-md-4 col-lg-3 col-sm-12 mb-5">
+        <img src="../Images/Categories5.jpg" alt="Personal Development" width="90%">
+        <h5>Personal Development</h5>
+      </div>
+
+      <div class="col col-md-4 col-lg-3 col-sm-12 mb-5">
+        <img src="../Images/Categories6.jpg" alt="Business" width="90%">
+        <h5>Business</h5>
+      </div>
+
+      <div class="col col-md-4 col-lg-3 col-sm-12 mb-5">
+        <img src="../Images/Categories7.jpg" alt="Photography" width="90%">
+        <h5>Photography</h5>
+      </div>
+
+      <div class="col col-md-4 col-lg-3 col-sm-12 mb-5">
+        <img src="../Images/Categories8.jpg" alt="Music" width="90%">
+        <h5>Music</h5>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

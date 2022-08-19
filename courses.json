@@ -2,9 +2,10 @@
   "courses": [
     {
       "id": 1,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/pythonforbeginners/",
       "title": "Learn Python: The Complete Python Programming Course",
-      "author": "Avinash Jain,The Codex",
+      "author": "Avinash Jain",
       "image": "https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
       "price": "679.99",
       "discount": "879.99",
@@ -13,6 +14,7 @@
     },
     {
       "id": 2,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/",
       "title": "Learning Python for Data Analysis and Visualization",
       "author": "Jose Portilla",
@@ -24,9 +26,10 @@
     },
     {
       "id": 3,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/python-for-beginners-learn-programming-from-scratch/",
       "title": "Python for Beginners - Learn Programming from scratch",
-      "author": "Edwin Diaz, Coding FAcutly Solutaions",
+      "author": "Edwin Diaz",
       "image": "https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg",
       "price": "679.99",
       "discount": "879.99",
@@ -35,6 +38,7 @@
     },
     {
       "id": 4,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/learn-python/",
       "title": "Learn Python: Python for Beginners",
       "author": "Abrar Hussain",
@@ -46,8 +50,9 @@
     },
     {
       "id": 5,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/python-beyond-the-basics-object-oriented-programming/",
-      "title": "Python Beyond the Basics - Object-Oriented Programming",
+      "title": "Python Beyond Object-Oriented-Programming",
       "author": "Infinite Skills",
       "image": "https://img-c.udemycdn.com/course/480x270/449532_2aa9_7.jpg",
       "price": "519.99",
@@ -57,6 +62,7 @@
     },
     {
       "id": 6,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/selenium-webdriver-and-python/",
       "title": "Python From Scratch & Selenium WebDriver QA Automation 2022",
       "author": "Admas Kinfu",
@@ -68,6 +74,7 @@
     },
     {
       "id": 7,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/teach-your-kids-to-code/",
       "title": "Teach Your Kids to Code: Learn to Program Python at Any Age!",
       "author": "Bryson Payne",
@@ -79,6 +86,7 @@
     },
     {
       "id": 8,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/python-for-data-structures-algorithms-and-interviews/",
       "title": "Python for Data Structures, Algorithms, and Interviews!",
       "author": "Jose Portilla",
@@ -90,6 +98,7 @@
     },
     {
       "id": 9,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/automate/",
       "title": "Automate the Boring Stuff with Python Programming",
       "author": "Al Sweigart",
@@ -101,6 +110,7 @@
     },
     {
       "id": 10,
+      "tabs": "Python",
       "link": "https://www.udemy.com/course/complete-python-bootcamp/",
       "title": "2022 Complete Python Bootcamp From Zero to Hero in Python",
       "author": "Jose Portilla",
@@ -109,6 +119,116 @@
       "discount": "929.99",
       "rating": 4.6,
       "people": "427,994"
+    },
+    {
+      "id": 11,
+      "tabs": "Python",
+      "link": "https://www.udemy.com/course/complete-python-bootcamp/",
+      "title": "Taming Big Data with Apache Spark and Python - Hands On!",
+      "author": "Jose Portilla",
+      "image": "https://sundog-education.com/wp-content/uploads/2019/11/SparkPython.png",
+      "price": "729.99",
+      "discount": "929.99",
+      "rating": 4.6,
+      "people": "78,838"
+    },
+    {
+      "id": 12,
+      "tabs": "Python",
+      "link": "https://www.udemy.com/course/complete-python-bootcamp/",
+      "title": "Python for Beginners",
+      "author": "Jose Portilla",
+      "image": "https://coursemarks.com/wp-content/uploads/2020/11/2473048_8255_4.jpg.webp",
+      "price": "729.99",
+      "discount": "929.99",
+      "rating": 4.6,
+      "people": "78,838"
+    },
+    {
+      "id": 13,
+      "tabs": "Python",
+      "link": "https://www.udemy.com/course/complete-python-bootcamp/",
+      "title": "From Zero to Hero in Python",
+      "author": "Jose Portilla",
+      "image": "https://media.onlinecoursebay.com/2019/03/28025336/2023204_d2af_8-750x405.jpg",
+      "price": "729.99",
+      "discount": "929.99",
+      "rating": 4.6,
+      "people": "78,838"
+    },
+    {
+      "id": 14,
+      "tabs": "Python",
+      "link": "https://www.udemy.com/course/complete-python-bootcamp/",
+      "title": "All You Want To Know About Python",
+      "author": "Jose Portilla",
+      "image": "https://sf.ezoiccdn.com/ezoimgfmt/www.tangolearn.com/wp-content/uploads/2021/06/best-online-python-courses.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2",
+      "price": "729.99",
+      "discount": "929.99",
+      "rating": 4.6,
+      "people": "78,838"
+    },
+    {
+      "id": 15,
+      "tabs": "Python",
+      "link": "https://www.udemy.com/course/complete-python-bootcamp/",
+      "title": "All You Want To Know About Python",
+      "author": "Jose Portilla",
+      "image": "https://hackr.io/blog/best-python-courses/thumbnail/large?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2",
+      "price": "729.99",
+      "discount": "929.99",
+      "rating": 4.6,
+      "people": "78,838"
+    },
+    {
+      "id": 16,
+      "tabs": "Excel",
+      "link": "https://www.udemy.com/course/microsoft-excel-2013-course-beginners-intermediate-training/",
+      "title": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
+      "author": "Infinite Skills",
+      "image": "https://img-c.udemycdn.com/course/240x135/31535_e351_7.jpg",
+      "price": "519.99",
+      "discount": "719.99",
+      "rating": 4.6,
+      "people": "1,621"
+    },
+    {
+      "id": 17,
+      "tabs": "Excel",
+      "link": "https://www.udemy.com/course/advanced-microsoft-excel-2013-online-excel-course/",
+      "title": "Microsoft Excel 2013  Advanced. Online Excel Training Course",
+      "author": "Infinite Skills",
+      "image": "https://img-c.udemycdn.com/course/240x135/39292_b3f3_9.jpg",
+      "price": "519.99",
+      "discount": "719.99",
+      "rating": 4.5,
+      "people": "3,503"
+    },
+    {
+      "id": 18,
+      "tabs": "Web Development",
+      "link": "https://www.udemy.com/course/microsoft-excel-2013-course-beginners-intermediate-training/",
+      "title": "HTML and CSS for Web Development  ",
+      "author": "Infinite Skills",
+      "image": "https://img-c.udemycdn.com/course/240x135/31535_e351_7.jpg",
+      "price": "519.99",
+      "discount": "719.99",
+      "rating": 4.6,
+      "people": "1,621",
+      "category": "excel"
+    },
+    {
+      "id": 19,
+      "tabs": "Web Development",
+      "link": "https://www.udemy.com/course/advanced-microsoft-excel-2013-online-excel-course/",
+      "title": "Web Development Advanced. Online Training Course",
+      "author": "Infinite Skills",
+      "image": "https://img-c.udemycdn.com/course/240x135/39292_b3f3_9.jpg",
+      "price": "519.99",
+      "discount": "719.99",
+      "rating": 4.5,
+      "category": "excel",
+      "people": "3,503"
     }
   ]
 }
